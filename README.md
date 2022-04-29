@@ -7,7 +7,7 @@ Resources
 
 ## Screenshots
 Original resource
-![Ecommerce]()
+![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/star_ecommerce_dashboard.png)
 
 
 ## Site Map

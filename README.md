@@ -6,8 +6,7 @@ Original resource
 
 
 ## Site Map
-![Ecommerce](ecommerce_dashboard.png)
-
+![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/site_map.png)
 
 
 Resources

@@ -12,65 +12,91 @@
   <title>Ecommerce Dashboard</title>
 </head>
 
-<body class="container home-layout">
+<body class="container home__layout">
   <!-- PAGE HEADER-->
-  <header class="home-layout-header">
-    
+  <header class="home__layout_header">
+    <aside id="navigation__bar" class="box">
+
+    </aside>
   </header>
 
   <!-- MAIN CONTENT -->
-  <main class="home-layout-content">
-   <row>
+  <main class="home__layout_content">
+    <!-- SIDEBAR NAVIGATION -->
 
-   </row>
+    
+    <nav class="box flex-row-spb-center issues-nav-header">
+      <span>💡</span>
+      <span>6 Suggestions</span>
+      <label for="category" class="text-sm">
+        Sort by:
+        <select name="category" id="category">
+          <option value="0">Most Upvotes</option>
+          <option value="1">Most Recent</option>
+          <option value="2">Most Commented</option>
+        </select>
+      </label>
+      <a href="add_new_issue.html" class="button-primary">+ Add Issue</a>
+    </nav>
 
+   <!-- ROW - METRICS NUMBERS -->
+   <div class="wrapper__card_metrics_numbers">
 
-   <row>
+    <!-- NEW ORDERS -->
+    <div class="card_metrics_numbers">
+      <div class="header_card_metrics">
+        <h1>  </h1>
+        <h2>  </h2>
+        <p>  </p>
+      </div>
+      <div class="body_card_metrics">
+  
+      </div>
+    </div>
+    <!-- TOTLA INCOME -->
+    <div class="card_metrics_numbers">
+      <div class="header_card_metrics">
+        <h1>  </h1>
+        <h2>  </h2>
+        <p>  </p>
+      </div>
+      <div class="body_card_metrics">
+  
+      </div>
+    </div>
+    <!-- TOTAL EXPENSE -->
+    <div class="card_metrics_numbers">
+      <div class="header_card_metrics">
+        <h1>  </h1>
+        <h2>  </h2>
+        <p>  </p>
+      </div>
+      <div class="body_card_metrics">
+  
+      </div>
+    </div>
+    <!-- NEW USERS -->
+    <div class="card_metrics_numbers">
+      <div class="header_card_metrics">
+        <h1>  </h1>
+        <h2>  </h2>
+        <p>  </p>
+      </div>
+      <div class="body_card_metrics">
+  
+      </div>
+    </div>
+   </div>
 
-   </row>
-
-   <row>
-    <box>
-
-    </box>
-    <!---->
-    <box>
-      
-    </box>
-    <!---->
-    <box>
-      
-    </box>
-    <!---->
-    <box>
-      
-    </box>
-   </row>
-
-   <row>
-
-   </row>
+   <!-- ROW - METRICS DATA -->
+   <div class="wrapper__card_metrics_data">
+     
+   </div>
    
    <!-- CARD ROW 1 -->
-   <row>
-    <col>
-    </col>
-    <col>
-    </col>
-    <col>
-    </col>
-   </row>
+
    <!-- CARD ROW 2 -->
-   <row>
-    <col>
-    </col>
 
-    <col>
-    </col>
-
-    <col>
-    </col>
-   </row>
    <!-- TABLE -->
 
   </main>

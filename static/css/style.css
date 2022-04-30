@@ -1,5 +1,6 @@
 @import "./reset-styles.css";
 @import "./variables.css";
+@import "./utils.css";
 
 body {
   background-color: var(--light-color);
@@ -11,21 +12,50 @@ body {
   margin: calc(var(--space-unit) * 5) auto 0;
 }
 
-.home-layout {
+.home__layout {
   display: grid;
   grid-template-columns: 3fr 9fr;
   column-gap: calc(var(--space-unit) * 4);
 }
 
-.home-layout .home-layout-content {
+.home__layout .home__layout_header {
+
+}
+
+
+
+.flex-row-spb-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.issues-nav-header {
+  background-color: var(--dark-color);
+  color: white;
+}.home__layout .home__layout_header {
+
+}
+
+.home__layout .home__layout_content {
   height: 100%;
 }
 
-#profile-box {
+
+
+#profilebox {
   background-image: var(--main-gradiente);
   color: white;
   padding-top: 50px;
   position: relative;
+}
+
+#profile-box>img {
+  max-width: 75px;
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 37px);
+  top: -37px;
 }
 
 .box {
@@ -39,13 +69,7 @@ body {
   margin-top: calc(var(--space-unit) * 3);
 }
 
-#profile-box>img {
-  max-width: 75px;
-  border-radius: 100%;
-  position: absolute;
-  left: calc(50% - 37px);
-  top: -37px;
-}
+
 
 .tag {
   padding: calc(var(--space-unit) * .5) var(--space-unit);
@@ -130,22 +154,7 @@ body {
   outline: none;
 }
 
-.button-primary {
-  background-color: var(--doing-color);
-  border-radius: 4px;
-  border: none;
-  color: white;
-  font-weight: bold;
-  padding: calc(var(--space-unit) * .5) var(--space-unit);
-  cursor: pointer;
-  transition: all 250ms ease-in-out;
-  text-decoration: none;
-  font-size: var(--text-sm);
-}
 
-.button-primary:hover {
-  background-color: var(--doing-hover-color);
-}
 
 .issue {
   display: flex;

@@ -1,5 +1,11 @@
 :root {
   /* COLORS */
+  --darkblue: #020226;
+  --lighblue: #007dfe;
+  --green: #0cc672;
+  --purple: #8a61e1;
+  --yellow: #feb100;
+  --darkgreen: #00a85d;
   --light-color: #efefef;
   --bg-tag-color: #F2F4FF;
   --link-color: #4661E6;
@@ -16,4 +22,5 @@
   --text-default: 16px;
   --text-sm: 13px;
   --text-lg: 20px;
+
 }

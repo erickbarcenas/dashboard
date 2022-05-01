@@ -15,11 +15,11 @@ body {
 .home__layout {
   display: grid;
   grid-template-columns: 3fr 9fr;
-  column-gap: calc(var(--space-unit) * 4);
+  /*column-gap: calc(var(--space-unit) * 4);*/
 }
 
 .home__layout .home__layout_header {
-
+  background-color: var(--darkblue);
 }
 
 
@@ -30,15 +30,40 @@ body {
   align-items: center;
 }
 
-.issues-nav-header {
-  background-color: var(--dark-color);
+.ecommerce_nav_header {
+  background-color: white;
   color: white;
-}.home__layout .home__layout_header {
+  height: 4rem;
+}
+
+.row_title {
+  background-color: white;
+  color: white;
+  height: 4rem;
+}
+
+.row_metrics {
+  background-color: white;
+  color: white;
+  height: 4rem;
+}
+
+.row_summary_and_top{
+  background-color: white;
+  color: white;
+  height: 4rem;
+}
+
+
+
+.home__layout .home__layout_header {
 
 }
 
 .home__layout .home__layout_content {
-  height: 100%;
+  height: auto;
+  width: auto;
+  margin: 1rem 2rem 0 2rem;
 }
 
 
@@ -58,15 +83,31 @@ body {
   top: -37px;
 }
 
+
+
+
+
 .box {
-  border-radius: 8px;
-  padding: calc(var(--space-unit) * 2);
-  background-color: white;
-  box-shadow: 2px 4px 8px lightgrey;
+  padding: var(--space-unit);
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  display: block;
 }
 
 .box~.box {
-  margin-top: calc(var(--space-unit) * 3);
+  margin-top: var(--space-unit);
+  background-color: var(--darkblue);
+  color: white;
+}
+
+.box~.box:hover {
+  background-color: var(--lighblue);
+}
+
+.section_in_box {
+  
 }
 
 

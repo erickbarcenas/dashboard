@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./static/css/style.css" type="image/x-icon">
+  <link rel="shortcut icon" href="./static/imgs/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./static/css/style.css">
   <!-- FONT FAMILY-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,11 +13,68 @@
   <title>Ecommerce Dashboard</title>
 </head>
 
-<body class="container home__layout">
+<body class="home__layout">
   <!-- PAGE HEADER-->
-  <header class="home__layout_header">
-    <aside id="navigation__bar" class="box">
+  <header class="home__layout_header pages_container">
+    <aside id="navigation__bar" class="box section_in_box">
+      <img class="img_profile" src="./static/imgs/avatar2.png" alt="avatar">
+      <h1> Username </h1>
+      <a href="">admin@gmail.com</a>
+      <button class="btn button__secondary"> Settings </button>
+    </aside>
 
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Home</div> 
+    </aside>
+    <!-- TRANSACTIONS -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Transactions</div> 
+      <div class="container_notification"> 
+        <span class="notification notification_primary"> 10 </span>
+      </div>
+    </aside>
+    <!-- SALES -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Sales</div> 
+      <div class="container_notification"> 
+        <span class="notification notification_secundary"> 10 </span>
+      </div>
+    </aside>
+    <!-- PRODUCTS -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Products</div> 
+    </aside>
+    <!-- MEMBERS -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Members</div> 
+    </aside>
+    <!-- INVESTMENT -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Investment</div> 
+    </aside>
+    <!-- ANALYSIS -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Analysis</div> 
+    </aside>
+    <!-- REPORTING -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Reporting</div> 
+    </aside>
+    <!-- BACK ACCOUNTS -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Back Accounts</div> 
+    </aside>
+    <!-- ADMIN/HR -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Admin/HR</div> 
+    </aside>
+    <!-- GIFTCARDS -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Giftcards</div> 
+    </aside>
+    <!-- SETUP -->
+    <aside class="box section_in_box grid_2_items">
+      <div class="">Setup</div> 
     </aside>
   </header>
 
@@ -25,49 +83,39 @@
     <!-- SIDEBAR NAVIGATION -->
 
     
-    <nav class="box flex-row-spb-center issues-nav-header">
-      <span>💡</span>
-      <span>6 Suggestions</span>
-      <label for="category" class="text-sm">
-        Sort by:
-        <select name="category" id="category">
-          <option value="0">Most Upvotes</option>
-          <option value="1">Most Recent</option>
-          <option value="2">Most Commented</option>
-        </select>
-      </label>
-      <a href="add_new_issue.html" class="button-primary">+ Add Issue</a>
+    <nav class="box ecommerce_nav_header mb_1_5">
+      
     </nav>
 
    <!-- ROW - METRICS NUMBERS -->
-   <div class="wrapper__card_metrics_numbers">
+   <div class="wrapper__card_metrics_numbers mb_1_5">
 
     <!-- NEW ORDERS -->
-    <div class="card_metrics_numbers">
+    <div class="card_metrics_numbers card card_one">
       <div class="header_card_metrics">
-        <h1>  </h1>
-        <h2>  </h2>
-        <p>  </p>
+        <h1> NEW ORDERS  </h1>
+        <h2> 35673 </h2>
+        <p> 2.00% (30 days) </p>
       </div>
       <div class="body_card_metrics">
   
       </div>
     </div>
-    <!-- TOTLA INCOME -->
-    <div class="card_metrics_numbers">
+    <!-- TOTAL INCOME -->
+    <div class="card_metrics_numbers card card_two">
       <div class="header_card_metrics">
-        <h1>  </h1>
-        <h2>  </h2>
-        <p>  </p>
+        <h1> TOTAL INCOME </h1>
+        <h2> $14, 966 </h2>
+        <p> Increased by 7.35% </p>
       </div>
       <div class="body_card_metrics">
   
       </div>
     </div>
     <!-- TOTAL EXPENSE -->
-    <div class="card_metrics_numbers">
+    <div class="card_metrics_numbers card card_three">
       <div class="header_card_metrics">
-        <h1>  </h1>
+        <h1> TOTAL EXPENSE </h1>
         <h2>  </h2>
         <p>  </p>
       </div>
@@ -76,7 +124,7 @@
       </div>
     </div>
     <!-- NEW USERS -->
-    <div class="card_metrics_numbers">
+    <div class="card_metrics_numbers card card_four">
       <div class="header_card_metrics">
         <h1>  </h1>
         <h2>  </h2>
@@ -89,7 +137,7 @@
    </div>
 
    <!-- ROW - METRICS DATA -->
-   <div class="wrapper__card_metrics_data">
+   <div class="wrapper__card_metrics_data mb_1_5">
      
    </div>
    

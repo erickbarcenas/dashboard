@@ -24,7 +24,22 @@
 }
 
 
+.header_item {
+    color: black;
+}
 
+.hidde_text {
+    color: white;
+}
+
+.ecommerce_nav_header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: var(--space-unit);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
 .wrapper__card_metrics_numbers {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -47,12 +62,56 @@
   
 }
 
-.wrapper__card_metrics_numbers .card_metrics_numbers .header_card_metrics {
-  
+.wrapper__card_metrics_data .card_metrics_data {
+    
 }
 
-.wrapper__card_metrics_numbers .card_metrics_numbers .body_card_metrics {
-  
+.wrapper__card_metrics_data .card_metrics_data .header_card_metrics_data {
+    padding: 1rem;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.wrapper__card_metrics_data .card_metrics_data .body_card_metrics_data {
+  background-color: white;
+}
+
+
+.body_card_metrics_data .card_product .card_product_container_image {
+
+}
+
+.body_card_metrics_data .card_product .card_product_container_text {
+    
+}
+
+.body_card_metrics_data .card_product .card_product_container_text  h1{
+    
+}
+
+.body_card_metrics_data .card_product .card_product_container_text  h2{
+    
+}
+
+.body_card_metrics_data .card_product .card_product_container_text .container_features{
+    
+}
+
+.body_card_metrics_data .card_product .card_product_container_text .container_features h3{
+    
+}
+
+.wrapper__card_metrics_data .card_metrics_data:first-child {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.wrapper__card_metrics_data .card_metrics_data:last-child {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 
@@ -70,6 +129,10 @@
     cursor: pointer;
     transition: all 250ms ease-in-out;
     text-decoration: none;
+}
+
+.button__product {
+    background-color: var(--lighblue);
 }
 
 .button__primary {
@@ -159,6 +222,19 @@
 .card {
     padding: 0.5rem;
     color: white;
+    margin: 0.5rem;
+}
+
+.card:first-child {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.card:last-child {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem 0 0.5rem 0.5rem;
 }
 
 h1 {

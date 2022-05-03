@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
 :root {
   /* COLORS */
   --darkblue: #020226;
@@ -22,5 +24,6 @@
   --text-default: 16px;
   --text-sm: 13px;
   --text-lg: 20px;
+  --thin-typography: 'Montserrat', sans-serif;
 
 }

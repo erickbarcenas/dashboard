@@ -5,7 +5,13 @@ Original resource
 ![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/star_ecommerce_dashboard.png)
 
 
-## Site Map
+## Page 1
+![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/dashboard.png)
+
+## Page 2
+![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/add_product.png)
+
+## Page 3
 ![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/site_map.png)
 
 

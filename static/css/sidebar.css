@@ -1,0 +1,109 @@
+
+/* ==================
+    SECTION PAGES
+=====================*/
+
+.img_profile {
+    height: 5rem;
+    width: 5rem;
+    margin: auto;
+}
+
+
+#navigation__bar {
+    background-image: var(--main-gradient);
+    color: var(--white);
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+
+#navigation__bar h1 {
+    color: white;
+}
+
+#navigation__bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.email_sidebar{
+    color: white;
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+
+
+.box {
+    padding: var(--space-unit);
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.box~.box {
+    margin-top: var(--space-unit);
+    background-color: var(--darkblue);
+    color: white;
+}
+  
+.box~.box:hover {
+    background-color: var(--lighblue);
+}
+
+.grid_2_items {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container_notification {
+    text-align: right;
+    padding: 0 10%;
+}
+
+.notification {
+    padding: calc(var(--space-unit) * .5) var(--space-unit);
+    color: var(--link-color);
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    font-size: var(--text-sm);
+    color: white;
+}
+
+.notification_primary {
+    background-color: var(--purple);
+}
+
+.notification_secundary {
+    background-color: var(--green);
+    /*color: black !important;*/
+}
+/* ==================
+        SCROLL
+=====================*/
+
+.pages_container::-webkit-scrollbar {
+    width: 3px;
+}
+  
+.pages_container::-webkit-scrollbar-track {
+  background-color: #f1f1f17c;
+}
+
+.pages_container::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 200, 200, 0.5);
+}
+
+.pages_container::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0.47);
+}

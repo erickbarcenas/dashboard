@@ -5,7 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./static/imgs/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./static/css/dashboard.css">
+  <link rel="stylesheet" href="./static/css/sidebar.css">
   <link rel="stylesheet" href="./static/css/style.css">
+  
   <!-- FONT FAMILY-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,66 +19,66 @@
 <body class="home__layout">
   <!-- PAGE HEADER-->
   <header class="home__layout_header pages_container">
-    <aside id="navigation__bar" class="box section_in_box">
+    <a id="navigation__bar" class="box section_in_box">
       <img class="img_profile" src="./static/imgs/avatar2.png" alt="avatar">
       <h1> Username </h1>
-      <a href="">admin@gmail.com</a>
+      <a href="" class="email_sidebar">admin@gmail.com</a>
       <button class="btn button__secondary"> Settings </button>
-    </aside>
+    </a>
 
-    <aside class="box section_in_box grid_2_items">
+    <a href="dashboard.html" class="box section_in_box grid_2_items">
       <div class="">Home</div> 
-    </aside>
+    </a>
     <!-- TRANSACTIONS -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Transactions</div> 
       <div class="container_notification"> 
         <span class="notification notification_primary"> 10 </span>
       </div>
-    </aside>
+    </a>
     <!-- SALES -->
-    <aside class="box section_in_box grid_2_items">
+    <a href="sold_produtcs.html" class="box section_in_box grid_2_items">
       <div class="">Sales</div> 
       <div class="container_notification"> 
         <span class="notification notification_secundary"> 10 </span>
       </div>
-    </aside>
+    </a>
     <!-- PRODUCTS -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Products</div> 
-    </aside>
+    </a>
     <!-- MEMBERS -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Members</div> 
-    </aside>
+    </a>
     <!-- INVESTMENT -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Investment</div> 
-    </aside>
+    </a>
     <!-- ANALYSIS -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Analysis</div> 
-    </aside>
+    </a>
     <!-- REPORTING -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Reporting</div> 
-    </aside>
+    </a>
     <!-- BACK ACCOUNTS -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Back Accounts</div> 
-    </aside>
+    </a>
     <!-- ADMIN/HR -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Admin/HR</div> 
-    </aside>
+    </a>
     <!-- GIFTCARDS -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Giftcards</div> 
-    </aside>
+    </a>
     <!-- SETUP -->
-    <aside class="box section_in_box grid_2_items">
+    <a class="box section_in_box grid_2_items">
       <div class="">Setup</div> 
-    </aside>
+    </a>
   </header>
 
   <!-- MAIN CONTENT -->
@@ -94,7 +97,7 @@
         .
       </div>
       <div class="header_item">
-        <button class="btn button__product"> + </button>
+        <a href="add_product.html" class="btn button__product"> + </a>
         Add product
       </div>
     </nav>
@@ -150,7 +153,7 @@
 
    <!-- ROW - METRICS DATA -->
    <div class="wrapper__card_metrics_data mb_1_5">
-     <!-- Summary -->
+    <!-- Summary -->
     <div class="card_metrics_data">
       <div class="header_card_metrics_data">
         <h1> Summary </h1>
@@ -166,17 +169,21 @@
       </div>
       <div class="body_card_metrics_data">
         <div class="card_product">
-          <div class="card_product_container_image"></div>
+          <div class="card_product_container_image">
+            <img src="./static/imgs/google_home.png" alt="google_home">
+          </div>
           <div class="card_product_container_text">
             <h1>Google Home</h1>
             <h2>USB, wireless</h2>
             <div class="container_features">
               <h3>White</h3>
-              <h3>White</h3>
-              <h3>White</h3>
+              <h3>Slate fabric</h3>
+              <h3>Hands-free</h3>
             </div>
           </div>
-          <div class="card_product_container_price"></div>
+          <div class="card_product_container_price">
+            $129.00
+          </div>
         </div>
         
         

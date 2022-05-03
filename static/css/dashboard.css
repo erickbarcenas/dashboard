@@ -1,0 +1,191 @@
+/* ==================
+    ADD PRODUCT 
+=====================*/
+
+.ecommerce_nav_header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: var(--space-unit);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: white;
+    height: 4rem;
+}
+
+.header_item {
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+.hidde_text {
+    color: white;
+}
+
+.button__product {
+    background-color: var(--lighblue);
+    width: 2rem;
+    height: 2rem;
+    margin: 0.3rem;
+}
+
+/* ==================
+      METRIC CARDS
+=====================*/
+.header_card_metrics h1 {
+    font-size: 0.65rem;
+}
+
+.header_card_metrics h2{
+    overflow-wrap: break-word;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.header_card_metrics p {
+    font-size: 0.8em;
+}
+
+
+.wrapper__card_metrics_numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.wrapper__card_metrics_numbers .card_metrics_numbers{
+    background-color: white;
+}
+
+.card_one{
+    background-color: var(--purple) !important;
+}
+
+.card_two{
+    background-color: var(--green) !important;
+}
+
+.card_three {
+    background-color: var(--lighblue) !important;
+}
+
+.card_four {
+    background-color: var(--yellow) !important;
+}
+
+.card {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem;
+}
+
+.card:first-child {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.card:last-child {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+}
+/* ==================
+        DATA CARDS
+=====================*/
+
+.wrapper__card_metrics_data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);;
+}
+
+.body_card_metrics_data .card_product {
+    display: inline-flex;
+    padding: 0.5rem;
+}
+
+
+/* .................. SUMMARY ................. */
+
+.wrapper__card_metrics_data .card_metrics_numbers .header_card_metrics {
+  
+}
+
+.wrapper__card_metrics_data .card_metrics_numbers .body_card_metrics {
+  
+}
+
+.wrapper__card_metrics_data .card_metrics_data {
+    
+}
+
+.wrapper__card_metrics_data .card_metrics_data .header_card_metrics_data {
+    padding: 1rem;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.wrapper__card_metrics_data .card_metrics_data .body_card_metrics_data {
+  background-color: white;
+  height: 5rem;
+}
+
+
+
+.body_card_metrics_data .card_product .card_product_container_image {
+    width: 20%;
+    margin: auto;
+}
+
+.body_card_metrics_data .card_product .card_product_container_text {
+    width: 60%;
+    font-size: 11px;
+    font-family: var(--thin-typography);
+    
+}
+
+.body_card_metrics_data .card_product .card_product_container_text  h1{
+    font-size: 0.8rem;
+    color: black;
+}
+
+.body_card_metrics_data .card_product .card_product_container_text  h2{
+    color: gray;
+    font-size: 12px;
+}
+
+.body_card_metrics_data .card_product .card_product_container_text .container_features{
+    font-size: 8px;
+    display: inline-flex;
+    color: gray;
+}
+
+.body_card_metrics_data .card_product .card_product_container_text .container_features h3{
+    margin: 0 0.1rem;
+}
+
+.body_card_metrics_data .card_product_container_price {
+  width: 20%;
+  color: gray;
+}
+.wrapper__card_metrics_data .card_metrics_data:first-child {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.wrapper__card_metrics_data .card_metrics_data:last-child {
+    padding: 0.5rem;
+    color: white;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+
+.header_card_metrics h1 {
+    font-size: 0.8rem;
+}
+
+/* ............ TOP SELLING PRODUCTS .......... */

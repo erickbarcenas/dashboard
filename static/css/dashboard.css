@@ -25,12 +25,7 @@
     color: white;
 }
 
-.button__product {
-    background-color: var(--lighblue);
-    width: 2rem;
-    height: 2rem;
-    margin: 0.3rem;
-}
+
 
 /* ==================
       METRIC CARDS

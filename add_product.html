@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./static/imgs/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./static/css/dashboard.css">
+  <link rel="stylesheet" href="./static/css/add_product.css">
   <link rel="stylesheet" href="./static/css/sidebar.css">
 
   <link rel="stylesheet" href="./static/css/style.css">
@@ -84,8 +84,75 @@
 
   <!-- MAIN CONTENT -->
   <main class="home__layout_content">
+    <form action="">
+      <!-- Product title -->
+      <div class="form__topic">
+        <label for="product_title"> Product title </label>
+        <input name="product_title" type="text" placeholder="writing">
+      </div>
+      <!-- Label -->
+      <div class="form__topic">
+        <label for="product_title"> Label </label>
+        <input name="product_title" type="text" placeholder="type here">
+      </div>
+      <!-- Images -->
 
+      <div class="flex container_images">
+        <img src="./static/imgs/camera.png" alt="camera">
+        <img src="./static/imgs/headphones.png" alt="headphones">
+        <img src="./static/imgs/watch.png" alt="watch">
+        <img src="./static/imgs/upload.png" alt="upload">
+      </div>
 
+      <!-- Tags -->
+      <div class="form__topic">
+        <label for="product_title"> Tags </label>
+        <input name="product_title" type="text" placeholder="type here">
+      </div>
+
+      <div class="flex">
+        <!-- Category -->
+        <div class="form__topic">
+          <label for="category"> Category </label>
+          <select name="category" class="input_select">
+            <option>Select</option>
+            <option>Fútbol</option>
+            <option>Críquet</option>
+            <option>Básquetbol</option>
+          </select>
+        </div>
+        <!-- Sub category -->
+        <div class="form__topic">
+          <label for="sub_category"> Sub category </label>
+          <select name="sub_category" class="input_select">
+            <option>Select</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Price -->
+      <div class="flex">
+        <div class="form__topic">
+          <label for="price"> Price </label>
+          <input name="price" type="number" placeholder="type here">
+        </div>
+        <div class="form__topic">
+          <label class="hidde_text"> . </label>
+          <select name="currency" class="input_select">
+            <option>USD</option>
+            <option>MX</option>
+          </select>
+        </div>
+      </div>
+      
+
+      
+      <!-- Publish on site -->
+      <input type="checkbox" checked="true"> <span class="inline_text"> Publish on site </span>
+      <br>
+
+      <input type="submit" value="Submit item" class="btn button__submit">
+    </form>
   </main>
 </body>
 </html>

@@ -1,0 +1,131 @@
+.sold_products_wrapper {
+    height: 100vh;
+}
+
+.sold_products_container {
+    background-color: white;
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem;
+    position: relative;
+    padding: 1rem 1.5rem;
+    width: 100%;
+}
+
+
+.sold_products_container {
+    margin-top: calc(var(--space-unit) * 3);
+    height: 90vh;
+    overflow-y: auto;
+}
+
+ 
+.sold_products_container .box {
+    border-radius: var(--radius);
+    padding: calc(var(--space-unit) * 2);
+    background-color: var(--white);
+}
+
+.sold_products_container .box~.box {
+    margin-top: calc(var(--space-unit) * 3);
+}
+
+
+.issue {
+    display: flex !important;
+    align-items: flex-start !important;
+    column-gap: calc(var(--space-unit) * 5);
+}
+
+.issue .comments {
+    margin-left: auto;
+    align-self: center;
+}
+  
+.votes-title {
+    background-color: #F2F4FE;
+    padding: var(--space-unit);
+    border-radius: 8px;
+    color: var(--dark-color);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 5rem;
+}
+
+
+.tag {
+    padding: calc(var(--space-unit) * .5) var(--space-unit);
+    background-color: var(--bg-tag-color);
+    color: var(--link-color);
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    font-size: var(--text-sm);
+}
+  
+.tag:hover {
+    background-color: var(--link-color);
+    color: var(--bg-tag-color);
+}
+
+/* ==================
+      TABLE
+=====================*/
+
+table {
+    width: 100%;
+}
+
+.header_table {
+    background-color: #F2F4FE;
+}
+
+table, th, td {
+	border: 1px solid #ececec;
+	border-collapse: collapse;
+}
+.sold_products_img{
+    width: 3rem;
+}
+
+th {
+    font-size: 11px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.sold_products_text {
+    font-size: 12px;
+    max-width: auto;
+}
+
+.table_item {
+    padding: 1rem;
+}
+
+.even {
+    background-color: #F2F4FE;
+}
+/* ==================
+      SCROLL
+=====================*/
+
+.sold_products_container::-webkit-scrollbar {
+    width: 3px;
+}
+  
+.sold_products_container::-webkit-scrollbar-track {
+    background-color: #f1f1f17c;
+}
+  
+.sold_products_container::-webkit-scrollbar-thumb:hover {
+    background: rgba(200, 200, 200, 0.5);
+}
+  
+.sold_products_container::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.47);
+}

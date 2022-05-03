@@ -1,0 +1,79 @@
+form {
+    background-color: white;
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem;
+    position: relative;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    height: 97%;
+}
+
+.form__topic {
+    display: block;
+    margin: 1rem;
+}
+
+.form__topic label {
+    display: block;
+    font-size: 13px;
+}
+
+.form__topic input{
+    font: inherit;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    padding: 0.25rem 0.5rem;
+}
+
+.form__topic input[type="text"]{
+    font-size: 0.8em;
+    width: 100%;
+}
+
+
+.container_images {
+    margin: 1rem;
+}
+
+.container_images img {
+    max-width: 100%;
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    margin: 0.5rem;
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+.input_select {
+    width: 8.5rem;
+}
+
+input[type="number"] {
+    width: 8.5rem;
+}
+
+input[type="checkbox"] {
+    background-color: blue;
+}
+
+.inline_text{
+    font-size: 13px;
+}
+
+.form__topic .hidde_text {
+    color: transparent !important;
+}
+
+
+.input_select {
+    background-color: transparent;
+    outline: none;
+    padding: 0.15rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+}

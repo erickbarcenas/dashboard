@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./static/imgs/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./static/css/dashboard.css">
+  <link rel="stylesheet" href="./static/css/sold_produtcs.css">
   <link rel="stylesheet" href="./static/css/sidebar.css">
 
   <link rel="stylesheet" href="./static/css/style.css">
@@ -84,35 +84,55 @@
 
   <!-- MAIN CONTENT -->
   <main class="home__layout_content">
-    <!-- SIDEBAR NAVIGATION -->
 
-    
-    <nav class="ecommerce_nav_header mb_1_5">
-      <div class="header_item hidde_text">
-        .
-      </div>
-      <div class="header_item hidde_text">
-        .
-      </div>
-      <div class="header_item hidde_text">
-        .
-      </div>
-      <div class="header_item">
-        <a href="add_product.html" class="btn button__product"> + </a>
-        Add product
-      </div>
-    </nav>
-
-    <!-- Summary -->
-    <div class="card_metrics_data">
-      <div class="header_card_metrics_data">
-        <h1> Summary </h1>
-      </div>
-      <div class="body_card_metrics_data">
-       
+    <div class="sold_products_wrapper">
+      <div class="sold_products_container">
+        <table>
+          <tr class="header_table">
+            <th></th>
+            <th>Product</th>
+            <th>Revenue</th>
+            <th>Sold</th>
+            <th>Discount</th>
+          </tr>
+          <tr>
+            <th><input type="checkbox"></th>
+            <td class="flex table_item"> 
+              <img src="./static/imgs/nike_shoe.png" alt="nike_shoe.png" class="sold_products_img">
+              <span class="sold_products_text">Nike Running Shoe</span>
+            </td>
+            <th> $500.00 </th>
+            <th> 2 </th>
+            <th> $50.00 </th>
+          </tr>
+          <tr>
+            <th class="even"><input type="checkbox"></th>
+            <td class="flex table_item even"> 
+              <img src="./static/imgs/jacket.png" alt="jacket.png" class="sold_products_img">
+              <span class="sold_products_text">Sold Women's Jacket</span>
+            </td>
+            <th class="even"> $360.00 </th>
+            <th class="even"> 5 </th>
+            <th class="even"> $450.00 </th>
+          </tr>
+          <tr>
+            <th><input type="checkbox"></th>
+            <td class="flex table_item"> 
+              <img src="./static/imgs/iPad.png" alt="" class="sold_products_img">
+              <span class="sold_products_text">Apple iPad Pro</span>
+            </td>
+            <th> $500.00 </th>
+            <th> 1 </th>
+            <th> $90.00 </th>
+          </tr>
+        </table> 
       </div>
     </div>
+
+
   </main>
+  <script type="text/javascript" src="./static/js/sold_products.js"></script>
+
 </body>
 </html>
 

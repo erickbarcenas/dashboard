@@ -6,13 +6,13 @@ Original resource
 
 
 ## Page 1
-![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/dashboard.png)
+![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/page1.jpeg)
 
 ## Page 2
-![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/add_product.png)
+![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/page2.jpeg)
 
 ## Page 3
-![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/site_map.png)
+![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/page3.jpeg)
 
 
 Resources

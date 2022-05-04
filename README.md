@@ -2,6 +2,7 @@
 
 ## Screenshots
 Original resource
+
 ![Ecommerce](https://github.com/erickbarcenas/dashboard/blob/main/static/imgs/star_ecommerce_dashboard.png)
 
 
